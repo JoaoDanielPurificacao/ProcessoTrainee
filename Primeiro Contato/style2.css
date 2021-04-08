@@ -1,0 +1,19 @@
+/* hr {
+    background-color: yellow;
+    border: none;
+    height: 2px;
+    width: 150px;
+} */
+
+.teste{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
