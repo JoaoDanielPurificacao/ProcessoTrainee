@@ -1,2 +1,38 @@
 /* Fazer uma das sessões feitas hoje, para quinta-feira */
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1488f2;
+    height: 8vh;
+    padding: 0rem 1rem;
+    position: fixed;
+}
+
+#navbar h4{
+    color: #fff;
+    /* padding-left: 1rem; */
+}
+
+#nav-list{
+    display: flex;
+    list-style: none;
+}
+
+#nav-list a{
+    /* margin-right: 1.5rem; */
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-list-margin{
+    margin-right: 1.5rem;
+}
