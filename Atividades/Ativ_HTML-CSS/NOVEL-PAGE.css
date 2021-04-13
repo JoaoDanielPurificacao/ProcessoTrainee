@@ -41,3 +41,58 @@
 }
 
 /* Estilização Barra de Navegação: Fim */
+
+/* Estilização Home Page: Começo */
+
+#home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #1488f2;
+
+}
+
+.imagem-home{
+    width: 60vw;
+    height: 60vh;
+}
+
+#home div{
+    color: #fff;
+}
+
+#home div h1{
+    font-size: 7.5rem;
+}
+
+#home div h5{
+    font-size: 2rem;
+}
+
+#home div p{
+    font-size: 1.5rem;
+}
+
+#home div button{
+    width: 20vw;
+    height: 8vh;
+    margin-top: 5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bolder;
+    color: #fff;
+    background-color: #2BFF80;
+
+}
+
+#home div button:hover{
+    transition: ease-in-out 0.3s;
+    background-color: #03A14A;
+    cursor: pointer;
+}
+
+/* Estilização Home Page: Fim */
