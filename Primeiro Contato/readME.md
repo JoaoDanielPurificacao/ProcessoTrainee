@@ -22,3 +22,5 @@ A Listado
 git clone "Link do Repositório"
 
 git pull origin master
+
+ctrl+ " - abre o cmd do VSCode
