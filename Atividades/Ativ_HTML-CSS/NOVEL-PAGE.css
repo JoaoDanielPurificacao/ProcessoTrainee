@@ -19,10 +19,10 @@
 
 }
 
-#barnav h4{
-    color: #fff;
+    #barnav h4{
+        color: #fff;
 
-}
+    }
 
 #nav-list{
     display: flex;
@@ -30,11 +30,11 @@
 
 }
 
-#nav-list a{
-    text-decoration: none;
-    color: #fff;
+    #nav-list a{
+        text-decoration: none;
+        color: #fff;
 
-}
+    }
 
 .nav-list-margem{
     margin-right: 1.5rem;
@@ -55,44 +55,44 @@
 
 }
 
+    #home div{
+        color: #fff;
+    }
+
+        #home div h1{
+            font-size: 7.5rem;
+        }
+
+        #home div h5{
+            font-size: 2rem;
+        }
+
+        #home div p{
+            font-size: 1.5rem;
+        }
+
+        #home div button{
+            width: 20vw;
+            height: 8vh;
+            margin-top: 5rem;
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            font-weight: bolder;
+            color: #fff;
+            background-color: #2BFF80;
+
+        }
+
+            #home div button:hover{
+                transition: ease-in-out 0.3s;
+                background-color: #03A14A;
+                cursor: pointer;
+            }
+
 .imagem-home{
     width: 60vw;
     height: 60vh;
-}
-
-#home div{
-    color: #fff;
-}
-
-#home div h1{
-    font-size: 7.5rem;
-}
-
-#home div h5{
-    font-size: 2rem;
-}
-
-#home div p{
-    font-size: 1.5rem;
-}
-
-#home div button{
-    width: 20vw;
-    height: 8vh;
-    margin-top: 5rem;
-    border: none;
-    border-radius: 5px;
-    font-size: 1rem;
-    font-weight: bolder;
-    color: #fff;
-    background-color: #2BFF80;
-
-}
-
-#home div button:hover{
-    transition: ease-in-out 0.3s;
-    background-color: #03A14A;
-    cursor: pointer;
 }
 
 /* Estilização Home Page: Fim */
@@ -119,24 +119,119 @@
     background-color: #2C5073;
 }
 
-.banner-sobre h2{
-    margin-bottom: 1rem;
-    font-weight: initial;
-    font-size: 2.1rem;
-}
+    .banner-sobre h2{
+        margin-bottom: 1rem;
+        font-weight: initial;
+        font-size: 2.1rem;
+    }
 
-.banner-sobre hr{
-    width: 15%;
-    height: 0.3vh;
-    margin-bottom: 2rem;
-    border: none;
-    background-color: #FCE40D;
-}
+    .banner-sobre hr{
+        width: 15%;
+        height: 0.3vh;
+        margin-bottom: 2rem;
+        border: none;
+        background-color: #FCE40D;
+    }
 
-.banner-sobre p{
-    width: 50%;
-    text-align: center;
-    font-size: 1.2rem;
-}
+    .banner-sobre p{
+        width: 50%;
+        text-align: center;
+        font-size: 1.2rem;
+    }
 
 /* Estilização Sobre Page: Fim */
+
+/* Estilização Contato Page: Começo */
+
+#contato{
+    width: 100%;
+    height: 92vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-image: url('./assets/images/back-contact.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+    #contato fieldset{
+        width: 85%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid #1488f2;
+        text-align: center;
+    }
+
+        #contato fieldset legend{
+            color: #fff;
+            font-weight: bolder;
+            font-size: 1.6rem;
+        }
+
+        #contato fieldset form{
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+            #contato fieldset form button{
+                width: 20vw;
+                height: 8vh;
+                margin-top: 5rem;
+                border: none;
+                border-radius: 5px;
+                font-weight: bolder;
+                font-size: 1rem;
+                color: #fff;
+                background-color: #1488f2;
+
+            }
+
+                #contato fieldset form button:hover{
+                    transition: ease-in-out 0.3s;
+                    background-color: #086CC9;
+                    cursor: pointer;
+                }
+
+    #contato form div{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-bottom: 5rem;
+
+    }
+        #contato form div input{
+            width: 20vw;
+            height: 5vh;
+            border: none;
+            border-bottom: 2px solid #1488f2;
+            background: none;
+            color: #fff;
+        }
+
+        ::-webkit-input-placeholder{
+            color: #fff;
+        }
+    
+    #contato form textarea{
+        width: 100%;
+        height: 20vh;
+        resize: none;
+        border: 2px solid #1488f2;
+        background: none;
+        color: #fff;
+    }
+
+
+
+/* Estilização Contato Page: Fim */
