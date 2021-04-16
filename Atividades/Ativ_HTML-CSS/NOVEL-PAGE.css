@@ -25,6 +25,7 @@ input, textarea, button, p, a {
     width: 100%;
     height: 8vh;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 0rem 1rem;
