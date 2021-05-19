@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-size: 22px;
+    /* font-size: 22px; */
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     color: #FFFFFF;
@@ -50,33 +50,53 @@
   
   /* Começo: Home */
   
-  #Home {
-      min-width:100%;
-      min-height: 85vh;
+  #home {
+      width:100%;
+      height: 80vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
       background-image:  url(./images/home.png); 
       background-size: cover;
-      padding-right: 45%;
+      /* padding-right: 45%;
       padding-left: 4%;
-      padding-top:3%;
-      }
+      padding-top: 3%; */
+  }
+  
   
   .home-content{
-      margin-top: 8rem;
+    /* margin-top: 8rem; */
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    /* border: 2px solid #001dc0; */
+    padding-left: 4%
+
   }
-  
+
+  .tamanho{
+    width: 50%;
+    height: 50%;
+  }
+
   .home-content p{
-      margin-top: 2rem;
+    /* width: 50%; */
+    margin-top: 2rem;
   }
-  
+
   .home-content button{
-      margin-top: 2rem;
+  margin-top: 2rem;
   }
-  
-  #Home h1{
-      font-size: 250%;
-      display: flex;
-      justify-content: left;
-      align-items: unset;   
+
+  #home h1{
+    font-size: 250%;
+    display: flex;
+    justify-content: left;
+    align-items: unset;   
   }
   
   /* Fim: Home */
@@ -163,9 +183,9 @@
     }
   
     .box-content{
-        align-self: stretch;
-        margin-top: 20px;
-        margin-left: 20px;
+      align-self: stretch;
+      margin-top: 2rem;
+      margin-left: 1rem;
     }
   
   /* Fim: Menu */
@@ -358,3 +378,242 @@
   
   
   
+@media only screen and (min-width: 280px) and (max-width: 768px) and (max-height: 1280px){
+
+
+  /* Começo: NavBar */
+  #navbar{
+    display: none;
+  }
+  /* Fim: NavBar */
+
+  /* Começo: Home */
+  #home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #FF7575;
+    font-size: 0.7rem;
+  }
+
+  .home-content{
+    /* margin-top: 2rem; */
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 3px solid #6000a0; */
+    padding-left: 0%
+ }
+
+ .tamanho{
+  width: 95%;
+  height: 60%;
+  /* border: 3px solid #6000a0; */
+}
+
+ .home-content div{
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+ .home-content p{
+    margin-top: 0rem;
+    align-items: center;
+    font-size: 1rem;
+    width: 90%;
+    margin-top: 2rem;
+ }
+
+ .home-content button{
+    margin-top: 4rem;
+ }
+
+ #home h1{
+    font-size: 250%;
+    display: flex;
+    justify-content: center;
+    align-items: unset;   
+ }
+
+  /* Fim: Home */
+
+
+  /* Começo: About */
+  #about{
+    display: none;
+  }
+  /* Fim: About */
+
+
+  /* Começo: Menu */
+  #menu{
+    width: 100%;
+    height: 280%;
+    /* display: flex; */
+    display: none;
+  }
+
+  #menu h1{
+    font-size: 2.8rem;
+  }
+  
+  #menu h3{
+    font-size: 1rem;
+  }
+
+  #menu p{
+    font-size: 1.3rem;
+  }
+
+  .tam{
+    padding-bottom: 0.7rem;
+  }
+
+  .top{
+    display: flex;
+    align-items: flex-start;
+  }
+
+
+  #box_menu{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .box{
+    width: 75vw;
+    height: 80vh;
+    margin-bottom: 1rem;
+  }
+
+  /* Fim: Menu */
+
+
+  /* Começo: Contato */
+  #contacto{
+    display: none;
+  }
+
+  #contact{
+    display: none;
+  }
+  /* Fim: Contato */
+
+  #form{
+    display: none;
+  }
+
+
+  /* Começo: Maps */
+  #maps{
+    display: none;
+  }
+  
+  /* Fim: Maps */
+
+  .footer-bottom{
+    display: none;
+  }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) and (max-height: 1366px){
+
+
+  /* Começo: NavBar */
+  .navbar{
+    display: none;
+  }
+  /* Fim: NavBar */
+
+  /* Começo: Home */
+  #home{
+    display: none;
+  }
+  /* Fim: Home */
+
+
+  /* Começo: About */
+  #sobre{
+    display: none;
+  }
+  /* Fim: About */
+
+
+  /* Começo: Menu */
+  #menu{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    
+  }
+
+  #menu h1{
+    font-size: 4.5rem;
+  }
+  
+  #menu h3{
+    font-size: 1.8rem;
+  }
+  
+  #menu h4{
+    font-size: 1.4rem;
+  }
+
+  #menu p{
+    font-size: 1.5rem;
+  }
+
+  .tam{
+    padding-bottom: 1rem;
+  }
+
+  .top{
+    display: flex;
+    align-items: flex-start;
+  }
+
+
+  #box_menu{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .box{
+    width: 30vw;
+    height: 50vh;
+    margin-bottom: 1rem;
+  }
+
+  /* Fim: Menu */
+
+
+  /* Começo: Contato */
+  #contacto{
+    display: none;
+  }
+  /* Fim: Contato */
+
+
+  /* Começo: Maps */
+  #maps{
+    display: none;
+  }
+  
+  /* Fim: Maps */
+
+}
