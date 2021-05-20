@@ -24,6 +24,14 @@
       top: 0;
       text-decoration-color: #FFFFFF;   
   }
+
+  .op7{
+   opacity: 0.7;
+  }
+
+  .op10{
+    opacity: 1;
+  }
   
   
   .logo {
@@ -51,7 +59,7 @@
   /* Começo: Home */
   
   #home {
-      width:100vw;
+      width:100%;
       height: 80vh;
       display: flex;
       flex-direction: column;
@@ -104,7 +112,7 @@
   /* Começo: About */
   
   #about{
-      min-width:100vw;
+      min-width:100%;
       min-height: 75vh;
       justify-content: space-between;
       background-image: url(./images/about.png);
@@ -150,7 +158,7 @@
   } */
   
   #menu{
-      width: 100vw;
+      width: 100%;
       height: 100vh;
       background-image: url(./images/menu.jpeg); 
       background-repeat: no-repeat;
@@ -224,7 +232,7 @@
   /* Contact -2 */
   
   #contacto{
-    width: 100vw;
+    width: 100%;
     height: 70vh;
     background-image: url(./images/contato.png); 
     background-repeat: no-repeat;
@@ -246,7 +254,6 @@
     height: 70vh;
     display: flex;
     flex-direction: column;
-    
   }
   
   .contato_box{
@@ -266,6 +273,10 @@
   .bordabranca{
     border: 2px solid #FFFFFF;
   }
+
+  .bordapink{
+    border: 2px solid #c21cb4;
+  }
   
   .small{
     width: 20rem;
@@ -276,6 +287,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+  }
+
+  .left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
     justify-content: center;
   }
   
@@ -295,37 +313,83 @@
       min-height: 80vh;
       display: flex;
       background-image: url(./images/form.png);
+      flex-direction: column;
       background-size: cover;
       background-position: center;
+      align-items: center;
       justify-content: center;
-      flex-direction: row;
+      /* flex-direction: row; */
   
       
   }
   #title{
       display: flex;
       align-items: center;
-      
-      
-      
   }
-  .form-box{
-      width: 100%;
-      height: 100%;
+
+  #box_forms{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .tam-form{
+    width: 100%;
+    height: 100%;
+  }
+
+  .toda{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .label-box{
+      width: 90%;
+      height: 10%;
       display: flex;
       flex-direction: column;
       align-items: center;
-      
   }
+
+  .input-box{
+    width: 90%;
+    height: 10%;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+  }
+
   #form label{
-     height: 3vh;
-     width: 5vw;
-     float: left;
+    width: 100%;
+    height: 3vh;
+    /* float: left; */
   }
+
+  .form-input{
+    width: 90%;
+    height: 10%;
+  }
+
+  .input{
+    width: 50%;
+    height: 60%;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    background-color: transparent;
+  }
+
+  .placeholder-text::placeholder {
+    color: #FFFFFF;
+  }
+
   
-  #form input{
+  /* #form input{
+      height: 100%;
+      width: 100%;
       float: right;
-  }
+  } */
 
   /* Fim: Form */
 
@@ -462,8 +526,8 @@
   #menu{
     width: 100%;
     height: 280%;
-    /* display: flex; */
-    display: none;
+    display: flex;
+    /* display: none; */
   }
 
   #menu h1{
@@ -545,7 +609,7 @@
   /* Começo: Home */
   #home{
     /* display: none; */
-    border: 3px solid #FF7575;
+    /* border: 3px solid #FF7575; */
   }
   /* Fim: Home */
 
@@ -562,7 +626,7 @@
     width: 100%;
     height: 100vh;
     display: flex;
-    display: none;
+    /* display: none; */
     
   }
 
