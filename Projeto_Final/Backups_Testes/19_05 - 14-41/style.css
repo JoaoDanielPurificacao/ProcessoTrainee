@@ -51,7 +51,7 @@
   /* Começo: Home */
   
   #home {
-      width:100%;
+      width:100vw;
       height: 80vh;
       display: flex;
       flex-direction: column;
@@ -104,7 +104,7 @@
   /* Começo: About */
   
   #about{
-      min-width:100%;
+      min-width:100vw;
       min-height: 75vh;
       justify-content: space-between;
       background-image: url(./images/about.png);
@@ -150,7 +150,7 @@
   } */
   
   #menu{
-      width: 100%;
+      width: 100vw;
       height: 100vh;
       background-image: url(./images/menu.jpeg); 
       background-repeat: no-repeat;
@@ -173,7 +173,7 @@
   
     .box{
       width: 20vw;
-      height: 70vh;
+      height: 60vh;
       border: 3px solid #FFFFFF;
       margin-top: 30px;
       display: flex;
@@ -200,8 +200,8 @@
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
-      /* display: none; */
-      display: flex;
+      display: none;
+      /* display: flex; */
       flex-direction: row;
       align-items: center;
       justify-content: center;
@@ -224,14 +224,14 @@
   /* Contact -2 */
   
   #contacto{
-    width: 100%;
+    width: 100vw;
     height: 70vh;
     background-image: url(./images/contato.png); 
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    display: none;
-    /* display: flex; */
+    /* display: none; */
+    display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
@@ -266,8 +266,6 @@
   .bordabranca{
     border: 2px solid #FFFFFF;
   }
-  
-  
   
   .small{
     width: 20rem;
@@ -333,9 +331,14 @@
 
   /* Começo: Maps */
   #maps {
-      height: 250px;
+      height: 45%;
       filter: brightness(0.65);
       padding-bottom: 50px;
+  }
+
+  .map{
+    width: 100%;
+    height: 127%;
   }
 
   /* Fim: Maps */
@@ -346,7 +349,9 @@
   .footer-bottom{
       height: 50px;
       width: 100%;
-      position:fixed;
+      /* position:fixed; */
+      /* position: absolute; */
+      position: d;
       background-color: #252525;
       bottom: 0;
       opacity: 80%;
@@ -362,7 +367,7 @@
   .footer-href{
       text-decoration: none;
       color:#800000;
-      -webkit-transition: .3s all ease;
+      /* -webkit-transition: .3s all ease; */
       /* color; */
   }
   
@@ -395,7 +400,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 3px solid #FF7575;
     font-size: 0.7rem;
   }
 
@@ -413,7 +417,7 @@
 
  .tamanho{
   width: 95%;
-  height: 60%;
+  min-height: 60%;
   /* border: 3px solid #6000a0; */
 }
 
@@ -427,13 +431,14 @@
  .home-content p{
     margin-top: 0rem;
     align-items: center;
+    text-align: justify;
     font-size: 1rem;
-    width: 90%;
+    /* width: 90%; */
     margin-top: 2rem;
  }
 
  .home-content button{
-    margin-top: 4rem;
+    margin-top: 2rem;
  }
 
  #home h1{
@@ -532,20 +537,21 @@
 
 
   /* Começo: NavBar */
-  .navbar{
+  #navbar{
     display: none;
   }
   /* Fim: NavBar */
 
   /* Começo: Home */
   #home{
-    display: none;
+    /* display: none; */
+    border: 3px solid #FF7575;
   }
   /* Fim: Home */
 
 
   /* Começo: About */
-  #sobre{
+  #about{
     display: none;
   }
   /* Fim: About */
@@ -556,6 +562,7 @@
     width: 100%;
     height: 100vh;
     display: flex;
+    display: none;
     
   }
 
@@ -568,7 +575,7 @@
   }
   
   #menu h4{
-    font-size: 1.4rem;
+    font-size: 1.7rem;
   }
 
   #menu p{
@@ -595,7 +602,7 @@
 
   .box{
     width: 30vw;
-    height: 50vh;
+    height: 62vh;
     margin-bottom: 1rem;
   }
 
@@ -606,7 +613,15 @@
   #contacto{
     display: none;
   }
+
+  #contact{
+    display: none;
+  }
   /* Fim: Contato */
+
+  #form{
+    display: none;
+  }
 
 
   /* Começo: Maps */
@@ -615,5 +630,9 @@
   }
   
   /* Fim: Maps */
+
+  .footer-bottom{
+    display: none;
+  }
 
 }
