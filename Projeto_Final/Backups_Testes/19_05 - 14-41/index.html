@@ -248,7 +248,8 @@
                 <div class="right small">
                     <h4>Telefones</h4>
                      <p>
-                        (71) 91212-1212
+                        (71) 91212-1212 <br>
+                        (71) 3252-9001
                     </p>
                 </div>
     
@@ -264,8 +265,6 @@
             </div>
 
         </div>
-
-
     </section>
 
     <section id="form">
@@ -273,37 +272,37 @@
 			<h3>Fale conosco</h3>
 		</div>
 
-        <div id="box_forms" class="bordaverde">
-                    <div class="igual bordaazul center">
-                        <div class="label_nome label-box bordabranca center">
+        <div id="box_forms" class="">
+                    <div class="form-box center">
+                        <div class="label_nome label-box center">
                             <label class="left" for="name">Nome</label>
                         </div>
 
-                        <div class="label_email label-box bordabranca center">
+                        <div class="label_email label-box center">
                             <label class="left" for="email">Email</label>
                         </div>
 
-                        <div class="label_how label-box bordabranca center">
+                        <div class="label_how label-box center">
                             <label class="left" for="how">Como você nos encontrou?</label>
                         </div>
 
-                        <div class="label_check label-box bordabranca center">
-                            <label class="left" for="check">Gostaria de Receber Nossas Promoções?</label>
+                        <div class="label_check label-box center">
+                            <label class="left" for="promotion">Gostaria de Receber Nossas Promoções?</label>
                         </div>
 
-                        <div class="label_text label-box bordabranca center">
+                        <div class="label_text label-box center">
                             <label class="left" for="text">Deixe-nos uma mensagem</label>
                         </div>
 
-                        <div class="label_button label-box bordabranca center">
+                        <div class="label_button label-box center">
                             
                         </div>
             
                     </div>
                     
-                    <div class="igual bordaazul">
-                        <form action="send_mail.php" method="post" name="form" class="tam-form bordapink center">
-                            <div class="toda bordaazul center">
+                    <div class="form-box">
+                        <form action="send_mail.php" method="post" name="form" class="tam-form">
+                            <div class="toda center">
                                 
                                 <div class="input_name input-box form-input right">
                                     <input id="name" class="input placeholder-text" type="text" name="name" placeholder="Seu nome" required>
@@ -314,23 +313,28 @@
                                 <div class="email">
                                 </div>
                                 <div class="input_how input-box form-input right">
-                                    <input id="how" class="input placeholder-text" type="text" name="how" placeholder="Como encontrou" required>
+                                    <select name="how" id="how" class="input placeholder-text" required>
+                                        <option class="" value="">Selecione uma opção</option>
+                                        <option value="Redes sociais">Redes sociais</option>
+                                        <option value="Por outras pessoas">Por outras pessoas</option>
+                                        <option value="Outdoors">Outdoors</option>
+                                        <option value="Outra forma">Outra forma</option>
+                                    </select>
                                 </div>
-                                <div class="input_check form-check input-box right">
-                                    <!-- <input id="check" type="checkbox" name="check" required>
-                                    <p>Sim, por favor !</p> -->
-                                    <input id="check" type="checkbox" class="form-check-input right" >
-                                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                <div class="input_check input-box right">
+                                    <select name="promotion" id="promotion" class="input placeholder-text option-custom" required>
+                                        <option value="">Selecione uma opção</option>
+                                        <option value="Sim">Sim</option>
+                                        <option value="Não">Não</option>
+                                    </select>
                                 </div>
                                 <div class="input_text input-box right">
                                     <input id="text" class="input placeholder-text" type="text" name="text" placeholder="Sua mensagem" required>
                                 </div>
-                                <div class="input_button input-box right">
-                                    <input id="sub" class="btn btn-outline-light" type="submit" name="submit" value="Envie Email">
+                                <div class="input-box right">
+                                    <input id="sub" class="btn btn-outline-light" type="submit" name="submit" value="Enviar Email">
                                 </div>
                             </div>
-            
-            
                         </form>
                     </div>
         </div>
@@ -343,13 +347,13 @@
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d971.9465258528716!2d-38.515574743912545!3d-12.985528353351796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTLCsDU5JzA3LjciUyAzOMKwMzAnNTUuNyJX!5e0!3m2!1spt-BR!2sbr!4v1621271328710!5m2!1spt-BR!2sbr" width="" height="" style="border:0;" allowfullscreen="" loading="lazy" class="map"></iframe>
     </section>
     
-    <footer class="footer-bottom footer-text">
-           <p class="copyright">
-           Todos os Direitos Reservados |
-           <span id="copyright-year"> 2021 </span>
-           | Desenvolvido por 
-           <a href="https://praxisjr.com.br" target="_blank" class="footer-href"> Praxis - Empresa Jr. </a>
-   </footer>
+    <footer>
+        <p class="copyright">
+        Todos os Direitos Reservados |
+        <span id="copyright-year"> 2021 </span>
+         Desenvolvido por 
+        <a href="https://praxisjr.com.br" target="_blank" class="footer-href"> Praxis - Empresa Jr. </a>
+    </footer>
      <!-- <div class="footer-bottom">
          <div class="footer-text">
         </div>

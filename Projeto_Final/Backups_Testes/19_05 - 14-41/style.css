@@ -67,6 +67,7 @@
       justify-content: center;
       background-image:  url(./images/home.png); 
       background-size: cover;
+      color: #FFFFFF;
       /* padding-right: 45%;
       padding-left: 4%;
       padding-top: 3%; */
@@ -118,6 +119,7 @@
       background-image: url(./images/about.png);
       background-size: cover;
       background-repeat:no-repeat;
+      color: #FFFFFF;
   }
   
   #about div {
@@ -251,7 +253,7 @@
   
   .igual{
     width: 50%;
-    height: 70vh;
+    height: 80vh;
     display: flex;
     flex-direction: column;
   }
@@ -319,20 +321,40 @@
       align-items: center;
       justify-content: center;
       /* flex-direction: row; */
-  
-      
   }
   #title{
       display: flex;
       align-items: center;
+      
+  }
+
+  .form-box{
+    width: 50%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #form h3{
+    font-size: 5rem;
+  }
+
+  #form label{
+    font-size: 1.3rem;
   }
 
   #box_forms{
-    width: 90%;
+    width: 50%;
+    max-height: 30% !important;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+  }
+
+  .wb{
+    color: #FFFFFF;
+    background-color: black;
   }
 
   .tam-form{
@@ -351,6 +373,16 @@
       display: flex;
       flex-direction: column;
       align-items: center;
+      color: #FFFFFF;
+  }
+
+  #box_forms option:hover{
+    color-adjust: none;
+    background-color: none;
+  }
+
+  #box_forms option{
+    color: #000000;
   }
 
   .input-box{
@@ -359,6 +391,16 @@
     /* display: flex;
     flex-direction: column;
     align-items: center; */
+  }
+
+  .input_button{
+    width: 100vw;
+    height: 10%;
+    border: 3px solid #FFFFFF;
+  }
+
+  .option-custom select{
+    color: #000000;
   }
 
   #form label{
@@ -409,37 +451,37 @@
   
   /* Começo: Footer */
 
-  
-  .footer-bottom{
-      height: 50px;
-      width: 100%;
-      /* position:fixed; */
-      /* position: absolute; */
-      position: d;
-      background-color: #252525;
-      bottom: 0;
-      opacity: 80%;
-      overflow: hidden;
+  footer{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    background-color: #252525;
+    bottom: 0;
+    opacity: 90%;
+    overflow: hidden;
   }
-  
-  .footer-text {
-      color: red;
-      text-align: center;
-      padding-top: 0.35rem;
+
+  footer p {
+    color:white;
+    text-align: center;
+    align-content: center;
+    padding-top: 0.35rem;
   }
-  
+
   .footer-href{
-      text-decoration: none;
-      color:#800000;
-      /* -webkit-transition: .3s all ease; */
-      /* color; */
+    text-decoration: none;
+    color:red;
+    -webkit-transition: .3s all ease;
   }
-  
+
   .footer-href:hover{
-      text-decoration: none;
-      color:red;    
+    text-decoration: none;
+    color: saddlebrown;    
   }
-  
+
+  .footer-black{
+    background-image: url(images/black.png); 
+  }
   
   
   /* Fim: Footer */
@@ -465,6 +507,7 @@
     align-items: center;
     justify-content: center;
     font-size: 0.7rem;
+    background-image: url(./images/home-mobile.png);
   }
 
   .home-content{
