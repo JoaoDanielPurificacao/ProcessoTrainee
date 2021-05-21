@@ -157,13 +157,6 @@
   
   /* Começo: Menu */
   
-  /* #menu{
-      min-width:100%;
-      min-height: 100%;
-      background-image: url(images/menu.jpg); 
-      background-size: cover;  
-  } */
-  
   #menu{
       width: 100%;
       height: 100vh;
@@ -194,7 +187,6 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      /* justify-content: center; */
     }
   
     .box-content{
@@ -216,7 +208,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    /* display: none; */
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -237,14 +228,6 @@
     height: 70%;
   }
 
-  /*.contato-box{
-    width: 90%;
-    height: 30%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: #FFFFFF;
-  } */
 
   #contact p{
     font-size: 1.2rem;
@@ -259,25 +242,6 @@
   width: 100%;
   height: 50%;
   }
-  
-  
-  .bordaazul{
-    border: 2px solid #001dc0;
-  }
-  
-  .bordaverde{
-    border: 2px solid #18c73e;
-  }
-  
-  .bordabranca{
-    border: 2px solid #FFFFFF;
-  }
-
-  .bordapink{
-    border: 2px solid #c21cb4;
-  }
-  
-  
   
   .center{
     display: flex;
@@ -314,7 +278,6 @@
       background-position: center;
       align-items: center;
       justify-content: center;
-      /* flex-direction: row; */
   }
   #title{
       display: flex;
@@ -382,9 +345,6 @@
   .input-box{
     width: 90%;
     height: 10%;
-    /* display: flex;
-    flex-direction: column;
-    align-items: center; */
   }
 
   .input_button{
@@ -400,7 +360,6 @@
   #form label{
     width: 100%;
     height: 3vh;
-    /* float: left; */
   }
 
   .form-input{
@@ -419,13 +378,6 @@
   .placeholder-text::placeholder {
     color: #FFFFFF;
   }
-
-  
-  /* #form input{
-      height: 100%;
-      width: 100%;
-      float: right;
-  } */
 
   /* Fim: Form */
 
@@ -848,25 +800,14 @@
 @media only screen and (min-width: 768px) and (max-width: 1023px) and (max-height: 1366px){
 
 
-  /* Começo: NavBar */
-  #navbar{
-    
-  }
-  /* Fim: NavBar */
 
   /* Começo: Home */
-  #home{
-    /* display: none; */
-    /* border: 3px solid #FF7575; */
-  }
 
-  
  .home-content p{
   margin-top: 0rem;
   align-items: center;
   text-align: justify;
   font-size: 1.5rem;
-  /* width: 90%; */
   margin-top: 2rem;
 }
 
@@ -910,8 +851,6 @@
     width: 100%;
     height: 100vh;
     display: flex;
-    /* display: none; */
-    
   }
 
   #menu h1{
@@ -981,6 +920,7 @@
 
   /* Fim: Contato */
 
+  /* Começo: Forms */
   #form{
     display: flex;
   }
@@ -988,6 +928,8 @@
   #box_forms label{
     font-size: 1.5rem;
   }
+
+  /* Fim: Forms */
 
 
   /* Começo: Maps */
@@ -997,8 +939,5 @@
   
   /* Fim: Maps */
 
-  .footer-bar{
-    /* display: flex; */
-  }
 
 }
