@@ -137,5 +137,59 @@
 
     </section>
 
+    <section id="contact">
+    
+        <div id="clock" class="igual left ">
+            <div class="contato_box left ">
+                <div class="center small ">
+                    <h3>Horários de Funcionamento</h3>
+                </div>
+    
+                <div class="center small ">
+                    <h4>De segunda a sexta</h4>
+                    <p>14:00 - 22:00</p> 
+                </div>
+    
+                <div class="center small ">
+                    <h4>Finais de Semana</h4>
+                    <p>12:00 - 22:00</p>
+                </div>
+    
+                <div class="center small">
+                    <h4>Feriados</h4>
+                    <p>13:00 - 22:00</p>
+                </div>
+            
+            </div>
+        </div>
+
+        <div id="number" class="igual right">
+            <div class="contato_box left">
+                <div class="right small">
+                    <h3>Contato</h3>
+                </div>
+    
+                <div class="right small">
+                    <h4>Telefones</h4>
+                     <p>
+                        (71) 91212-1212 <br>
+                        (71) 3252-9001
+                    </p>
+                </div>
+    
+                <div class="right small">
+                    <h4>Email</h4>
+                    <p class="contact-small">contato@rafaspizza.com.br</p>
+                </div>
+    
+                <div class="right small">
+                    <h4>Endereço</h4>
+                    <p class=""> Rua do Salete, 28 - Barris, Salvador - BA</p>
+                </div>
+            
+            </div>
+        </div>
+    </section>
+
 </body>
 </html>
