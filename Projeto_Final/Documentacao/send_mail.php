@@ -43,6 +43,29 @@
                   </ul>
                 </div>
               </nav>
-        </section>
+    </section>
+
+    <section id="home">
+            <div class="home-content">
+
+                <div class="">
+                    <h1>
+                Mais do que uma pizza, uma experiência
+                  </h1>
+                </div>  
+
+                <div class="tamanho">
+                  <p>
+                   O casamento entre a culinária italiana e americana aconteceu no Brasil, em nossa querida cidade de Salvador. Para melhorar ainda mais a experiência gastronômica, a mágica acontece em um ambiente aconchegante e fora da caixa. Está pronto para para ter a melhor experiência de sua vida?
+                  </p>
+                </div> 
+
+                <div>
+                    <button type="button" class="btn btn-outline-light">ESTOU COM FOME!</button>
+                </div>    
+
+            </div> 
+    </section>
+
 </body>
 </html>
