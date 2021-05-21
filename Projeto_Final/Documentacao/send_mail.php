@@ -17,6 +17,32 @@
     <link rel="shortcut icon" type="image/jpg" href="./images/logo.png"/>
 </head>
 <body>
-    
+    <section>
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark op7" style="background-color: #000000;">
+            <a class="navbar-brand" href="#">
+                <img src="./images/logo.png" width="60" height="60" class="d-inline-block align-top" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+              
+            <div class="collapse navbar-collapse flex-row-reverse" id="conteudoNavbarSuportado">
+                <ul class="navbar-nav bd-navbar-nav ">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#about">Sobre</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#menu">Menu</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#contact">Contato</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#maps">Localização</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+        </section>
 </body>
 </html>
