@@ -191,5 +191,74 @@
         </div>
     </section>
 
+    <section id="form">
+        <div id="title">
+			<h3>Fale conosco</h3>
+		</div>
+
+        <div id="box_forms" class="">
+                <div class="form-box center">
+                        <div class="label_nome label-box center">
+                            <label class="right" for="name">Nome</label>
+                        </div>
+
+                        <div class="label_email label-box center">
+                            <label class="right" for="email">Email</label>
+                        </div>
+
+                        <div class="label_how label-box center">
+                            <label class="right" for="how">Como você nos encontrou?</label>
+                        </div>
+
+                        <div class="label_check label-box center">
+                            <label class="right" for="promotion">Deseja receber promoções?</label>
+                        </div>
+
+                        <div class="label_text label-box center">
+                            <label class="right" for="text">Deixe-nos uma mensagem</label>
+                        </div>
+
+                        <div class="label_button label-box center">
+                        </div>
+                </div>
+                    
+                <div class="form-box">
+                    <form action="send_mail.php" method="post" name="form" class="tam-form">
+                        <div class="toda center">
+                            <div class="input_name input-box right">
+                                <input id="name" class="input placeholder-text" type="text" name="name" placeholder="Seu nome" required>
+                            </div>
+                            <div class="input_email input-box right">
+                                <input id="email" class="input placeholder-text" type="email" name="email" placeholder="Seu email" required>
+                            </div>
+                            <div class="input_how input-box right">
+                                <select name="how" id="how" class="input placeholder-text" required>
+                                    <option class="" value="">Selecione uma opção</option>
+                                    <option value="Redes sociais">Redes sociais</option>
+                                    <option value="Por outras pessoas">Por outras pessoas</option>
+                                    <option value="Outdoors">Outdoors</option>
+                                    <option value="Outra forma">Outra forma</option>
+                                </select>
+                            </div>
+                            <div class="input_check input-box right">
+                                <select name="promotion" id="promotion" class="input placeholder-text option-custom" required>
+                                    <option value="">Selecione uma opção</option>
+                                    <option value="Sim">Sim</option>
+                                    <option value="Não">Não</option>
+                                </select>
+                            </div>
+                            <div class="input_text input-box right">
+                                 <input id="text" class="input placeholder-text" type="text" name="text" placeholder="Sua mensagem" required>
+                            </div>
+                            <div class="input-box right">
+                                 <input id="sub" class="btn btn-outline-light" type="submit" name="submit" value="Enviar Email">
+                            </div>
+                        </div>
+                     </form>
+                </div>
+        </div>
+	</section>
+
+
 </body>
 </html>
