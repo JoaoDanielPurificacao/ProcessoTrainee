@@ -371,3 +371,40 @@ margin-top: 2rem;
     cursor: pointer;
   }
   /* Fim: Botão top*/
+
+  /* Começo: Footer */
+
+  footer{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    background-color: #252525;
+    bottom: 0;
+    opacity: 90%;
+    overflow: hidden;
+  }
+
+  footer p {
+    color:white;
+    text-align: center;
+    align-content: center;
+    padding-top: 0.35rem;
+  }
+
+  .footer-href{
+    text-decoration: none;
+    color:red;
+    -webkit-transition: .3s all ease;
+  }
+
+  .footer-href:hover{
+    text-decoration: none;
+    color: saddlebrown;    
+  }
+
+  .footer-black{
+    background-image: url(images/black.png); 
+  }
+  
+  
+  /* Fim: Footer */

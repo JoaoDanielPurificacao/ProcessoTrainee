@@ -265,6 +265,14 @@
 
     <a href="#home" class="top"></a>
 
+    <footer class="footer-bar">
+        <p class="copyright">
+        Todos os Direitos Reservados |
+        <span id="copyright-year"> 2021 </span>
+         Desenvolvido por 
+        <a href="https://praxisjr.com.br" target="_blank" class="footer-href"> Praxis - Empresa Jr. </a>
+    </footer>
+
 
 </body>
 </html>
