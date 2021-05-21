@@ -1,4 +1,59 @@
+<?php
 
+
+
+
+  use PHPMailer\PHPMailer\PHPMailer;
+
+  $msg = '';
+ 
+  
+ if (array_key_exists('email', $_POST)) {
+     date_default_timezone_set('Etc/UTC');
+
+     require './lib/vendor/autoload.php';
+
+    
+     $mail = new PHPMailer();
+    
+     $mail->isSMTP();
+     $mail->CharSet = 'UTF-8';
+     $mail->Host = 'smtp.mailtrap.io';
+     $mail->SMTPAuth = true;
+     $mail->Username = '8930101b3574d6';
+     $mail->Password = '9c1ec98b72efd5';
+     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+     $mail->Port = 2525;
+
+        
+
+         if(isset($_POST['email'], $_POST['name'], $_POST['how'], $_POST['text'], $_POST['promotion'])){ 
+            $mail->setFrom('cliente@cliente.com.br', 'Cliente');
+            $mail->addAddress('rafael@pizzaria.com.br', 'Rafael');
+            
+        
+            if ($mail->addReplyTo($_POST['email'], $_POST['name'])) {
+                $mail->Subject = 'Resposta do Formulário';
+                
+                $mail->isHTML(false);
+                
+                $mail->Body = <<<EOT
+                    Email: {$_POST['email']}
+                    Nome: {$_POST['name']}
+                    Como encontrou: {$_POST['how']}
+                    Mensagem: {$_POST['text']}
+                    Promoção: {$_POST['promotion']}
+                    EOT;
+                
+                $mail->send();
+   
+      
+            }    
+        }
+    }
+ 
+
+?>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
