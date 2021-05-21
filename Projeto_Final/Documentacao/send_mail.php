@@ -67,5 +67,16 @@
             </div> 
     </section>
 
+    <section id="about">
+        <div>
+            <h3>SOBRE A EMPRESA</h3>
+        <hr>
+        <p>
+            Filha do casamento entre as culinárias italiana e americana, a {placeholder} chegou em território soteropolitano para inovar em sabores e experiências. Idealizada pelo Chef Rafael Viana, a pizzaria se materializou em 2021 para trazer o melhor de dois mundos para perto de sua casa. Não só prometemos felicidade e prazer como também garantimos essa experiência.
+        </p>
+
+        </div>
+    </section>
+
 </body>
 </html>
