@@ -78,5 +78,64 @@
         </div>
     </section>
 
+    <section id="menu" class="">
+        <div class="tam">
+            <h1>MENU</h1>
+        </div>
+
+        <div class="tam">
+            <h3>A cara da Itália, com jeitinho brasileiro</h3>
+        </div>
+
+        <div id="box_menu">
+            <div class="box">
+                <h4>Pizza Brasileira</h4>
+                <div class="box-content">
+                    <p>Portuguesa</p>
+                    <p>Bacon</p>
+                    <p>Quatro Queijos</p>
+                    <p>Frango</p>
+                    <p>Chocolate</p>
+                    <p>Costela Suína</p>
+                    <p>Queijo Branco com Geleia</p>
+                    <p>Salmão</p>
+                    <p>Baiana</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <h4>Pizza Italiana</h4>
+                <div class="box-content">
+                    <p>Calabresa</p>
+                    <p>Mussarela</p>
+                    <p>Pepperoni</p>
+                    <p>Presunto di Parma</p>
+                    <p>Peito de Peru</p>
+                    <p>Napolitana</p>
+                    <p>Marguerita</p>
+                    <p>Pizza Parmegiana</p>
+                    <p>Capricciosa</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <h4>Pizza Americana</h4>
+                <div class="box-content">
+                    <p>Catupiry</p>
+                    <p>Lombinho Canadense</p>
+                    <p>Pizza de abacaxi</p>
+                    <p>Quatro Queijos</p>
+                    <p>Três Queijos</p>
+                    <p> Califórnia</p>
+                    <p>Bacon</p>
+                    <p>Nova York</p>
+                    <p>Cheddar</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
 </body>
 </html>

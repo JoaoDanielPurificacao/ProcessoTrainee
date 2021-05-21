@@ -109,3 +109,45 @@ margin-top: 2rem;
 }
 
 /* Fim: About */
+
+/* Começo: Menu */
+  
+#menu{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./images/menu.jpeg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+  }
+
+  #box_menu{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .box{
+    width: 20vw;
+    height: 60vh;
+    border: 3px solid #FFFFFF;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .box-content{
+    align-self: stretch;
+    margin-top: 2rem;
+    margin-left: 1rem;
+  }
+
+/* Fim: Menu */
